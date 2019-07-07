@@ -1,0 +1,26 @@
+[
+  {
+    "description":"post demo",
+    "request":{
+      "uri":"/postdemo",
+      "method":"post"
+    },
+    "response":{
+      "text":"first mock post"
+    }
+  },
+  {
+    "description":"stimulate a post with param",
+    "request":{
+      "uri":"/postwithparam",
+      "method":"post",
+      "forms":{
+        "name":"florence",
+        "age":"18"
+      }
+    },
+    "response":{
+      "text":"don't give up"
+    }
+  }
+]

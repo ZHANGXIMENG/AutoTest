@@ -1,0 +1,26 @@
+[
+  {
+    "description":"redirect to website",
+    "request":{
+      "uri":"/redirect"
+    },
+    "redirectTo":"http://www.baidu.com"
+  },
+  {
+    "description":"redirect to website",
+    "request":{
+      "uri":"/redirect/topath"
+    },
+    "redirectTo":"/redirect/new"
+  },
+  {
+    "description":"redirect to website",
+    "request":{
+      "uri":"/redirect/new"
+    },
+    "response":{
+      "text":"florence success"
+    }
+  }
+
+]

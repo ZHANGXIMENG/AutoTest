@@ -1,0 +1,11 @@
+[
+  {
+    "description":"the first example",
+    "request":{
+      "uri":"/demo"
+    },
+    "response":{
+      "text":"this is the framework of moco"
+    }
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "description":"handle the request get with returning cookie",
+    "request":{
+      "uri":"/getCookies",
+      "method":"get"
+    },
+    "response":{
+      "cookies":{
+        "login":"true"
+      },
+      "text":"success with having cookies"
+    }
+  },
+  {
+    "description":"with cookies",
+    "request":{
+      "uri":"/get/with/cookies",
+      "method":"get",
+      "cookies":{
+        "login":"true"
+      }
+    },
+    "response":{
+      "text":"this is the request with cookies"
+    }
+  },
+
+  {
+    "description":"with cookies",
+    "request":{
+      "uri":"/post/with/cookies",
+      "method":"post",
+      "cookies":{
+        "login":"true"
+      },
+      "json":{
+        "name":"florence",
+        "state":"insister"
+      }
+    },
+    "response":{
+      "status":200,
+      "json":{
+        "florence":"success",
+        "status":"1"
+      }
+    }
+  }
+]

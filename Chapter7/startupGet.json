@@ -1,0 +1,26 @@
+[
+  {
+  "description":"stimulate a request without param",
+  "request":{
+    "uri":"/getdemo",
+    "method":"get"
+  },
+  "response":{
+    "text":"this is the request without param"
+  }
+},
+  {
+    "description":"stimulate a request with param",
+    "request":{
+      "uri":"/getwithparam",
+      "method":"get",
+      "queries":{
+        "name":"florence",
+        "age":"18"
+      }
+    },
+    "response":{
+      "text":"don't give up"
+    }
+  }
+]
